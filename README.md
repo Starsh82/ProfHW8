@@ -75,6 +75,12 @@ done
 root@serv-efi:/etc/default# reboot
 ```
 При старте мы видим отображение загрузчика GRUB
-![Загрузчик GRUB](Screenshot_3.png)
+![Загрузчик GRUB](Screenshot_3.png)  
 
+---
+
+Входим в операционную систему без пароля  
+Способ 1: Вход через Recovery Mode
+![Advanced options for Ubuntu(Screenshot_1.png)
+![Ubuntu, with Linux 6.8. Screenshot_2.png)
 to be continued special for Jecka
