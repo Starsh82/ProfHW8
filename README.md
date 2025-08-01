@@ -75,5 +75,6 @@ done
 root@serv-efi:/etc/default# reboot
 ```
 При старте мы видим отображение загрузчика GRUB
+![Загрузчик GRUB](Screenshot_3.png)
 
 to be continued special for Jecka
