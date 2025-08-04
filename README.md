@@ -129,5 +129,3 @@ root@serv-efi:~# vgs
   ubuntu-vg-new   1   1   0 wz--n- <21.95g    0
 root@serv-efi:~#
 ```
-
-to be continued special for Jecka
