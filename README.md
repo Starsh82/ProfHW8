@@ -80,7 +80,16 @@ root@serv-efi:/etc/default# reboot
 ---
 
 Входим в операционную систему без пароля  
-Способ 1: Вход через Recovery Mode
-![Advanced options for Ubuntu(Screenshot_1.png)
-![Ubuntu, with Linux 6.8. Screenshot_2.png)
+Способ 1: Вход через Recovery Mode  
+![Advanced options for Ubuntu](Screenshot_1.png)  
+![Ubuntu, with Linux 6.8.](Screenshot_2.png)  
+Загружаем ОС в режиме Recovery Mode и нажимаем Enter. Вуаля, мы вошли в систему под пользователем root.  
+![root](Screenshot_5.png)  
+Способ 2: Вход через режим обычной загрузки  
+Выбираем режим обычной загрузки  
+![Ubuntu default](Screenshot_6.png)  
+Переходим в режим редактирования команд  
+![Edit command](Screenshot_7.png)  
+Вносим изменения в перечень команд  
+![Edit command new](Screenshot_8.png)  
 to be continued special for Jecka
