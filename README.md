@@ -92,4 +92,42 @@ root@serv-efi:/etc/default# reboot
 ![Edit command](Screenshot_7.png)  
 Вносим изменения в перечень команд  
 ![Edit command new](Screenshot_8.png)  
+Вуаля, мы зашли под пользователем root
+![root 2](Screenshot_6.png)  
+
+---
+Переименование VG и загрузка с новым именем VG  
+Загружаемся в режиме Recovery Mode и меняем имя VG  
+![root change VG](Screenshot_10.png)  
+Вносим изменение в /boot/grub/grub.cfg
+![grub.cfg](Screenshot_12.png)  
+Перезагружаем систему  
+```
+[SSH] Server Version OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+[SSH] Encryption used: chacha20-poly1305@openssh.com
+[SSH] Logged in (password)
+
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.8.0-65-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+New release '24.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Last login: Mon Aug  4 20:13:32 2025 from 192.168.0.164
+
+starsh@serv-efi:~$ sudo -i
+[sudo] password for starsh:
+root@serv-efi:~# vgs
+  VG            #PV #LV #SN Attr   VSize   VFree
+  ubuntu-vg-new   1   1   0 wz--n- <21.95g    0
+root@serv-efi:~#
+```
+
 to be continued special for Jecka
